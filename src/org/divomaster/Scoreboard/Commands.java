@@ -22,6 +22,7 @@ public class Commands implements CommandExecutor{
 				Player player = (Player) sender;
 				if (player.hasPermission("Scoreboard.reload"))
 					;
+					reload();
 				
 				player.sendMessage(ChatColor.GREEN + "Plugin Reloaded!");
 		
